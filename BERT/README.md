@@ -53,6 +53,11 @@ python bert_classifier.py
 ```
 
 This will:
+Forward pass: BERT processes batches
+Calculate loss (cross-entropy)
+Backward pass: compute gradients
+Update BERT weights with AdamW optimizer
+Track accuracy and loss
 - Load the pre-trained BERT model (bert-base-uncased)
 - Fine-tune on your training data
 - Evaluate on the test set
