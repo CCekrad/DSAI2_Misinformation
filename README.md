@@ -24,7 +24,7 @@ Both notebooks use the same label convention (Real = 1, Fake = 0) and the same d
    - For the BERT notebook, step 3 in the notebook itself uploads the two ISOT dataset files, `True.csv` and `Fake.csv` directly into the notebook. The code automatically idenfities which uploaded file contains real news and which contains fake news then reads both files into separate DataFrames. It also prints the number of articles and column names to quickly confirm that the files were loaded correctly.
    - For the LLM notebook, place `True.csv` and `Fake.csv` in a `data/` folder next to the notebooks. The notebook's preprocessing step builds the combined `data/articles.csv` it uses for its evaluation.
 6. **API keys (LLM notebook only):** set `OPENAI_API_KEY` (classifier + RAGAS) and `GEMINI_API_KEY` (judge) - or preferred alternatives - as environment variables or in the `Config` cell. When lacking API key or to avoid making API calls, set `PIPELINE_MOCK=1` to run the full pipeline offline with placeholder outputs.
-7. Cells are to be run in order.
+7. Cells are to be run in order. Thr notebooks are further commentated step by step to provide more context.
 
 ## Results:
 
