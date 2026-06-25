@@ -28,6 +28,6 @@ Both notebooks use the same label convention (Real = 1, Fake = 0) and the same d
 
 ## Results:
 
-The BERT classifier reaches very high scores on the ISOT test set and stays strong (~98% accuracy) on the unseen Kaggle set, indicating it generalises rather than overfitting. The LLM pipeline reaches ~95% accuracy (F1 ≈ 0.95) on a stratified 150-article sample, with RAGAS scores and judge agreement providing diagnostics on its reasoning in addition to objective metrics, which can be used for further instruction calibration to improve results.
+The BERT classifier reaches very high scores on the ISOT test set and stays strong (~98% accuracy) on the novel Kaggle set, indicating it successfully generalises rather than overfitting. The LLM pipeline reaches ~95% accuracy (F1 ≈ 0.95) on a 150-article sample, with RAGAS scores and judge agreement providing diagnostics on its reasoning in addition to objective metrics, which can be used for further instruction/criteria calibration to improve results.
 
 
